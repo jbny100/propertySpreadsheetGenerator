@@ -62,6 +62,8 @@ def main():
 		"What is the type and amount of existing debt, if any? ", 
 		"In what zone is the property located? "
 	]
+	print()
+	print("Answer the following questions. Type 'skip' to leave a question blank.\n")
 
 	answers = [] 
 	for question in questions: 
